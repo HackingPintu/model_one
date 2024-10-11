@@ -204,5 +204,5 @@ if st.button("Check"):
     prediction_reversed = reverse_normalize(prediction) *1000
     predicted_time_rounded = round((prediction_reversed)/60)
     st.success(f"Predicted time_difference_minutes (reverse normalized and rounded): {predicted_time_rounded} hours")
-    st.write(f"Accuracy is : {int(r2*100)}%")
+    st.write(f"R2 score is : {int(r2*100)}%")
  
