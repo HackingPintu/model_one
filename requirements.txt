@@ -1,6 +1,5 @@
 pandas
 openpyxl
 scikit-learn
-pickle
 streamlit
 fsspec
